@@ -1,0 +1,82 @@
+body{
+	background-color: rgba(0,0,0,0.2);
+	background-image: url("../img/pareja.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.principal, .formulario{
+	background-color: rgba(0,0,0,0.2);
+	color: white;
+}
+.titulo{
+	background-image: url("../img/logo.png");
+	align-content: center;
+	width: 550px;
+	height: 100px;
+	background-repeat: no-repeat;
+}
+.mensaje{
+	font-family: "Hind Madurai";
+	font-size: 20px;
+}
+/*--------------------------------------------------------*/
+.pregunta{
+	padding: 10px;
+}
+p{
+	display: inline-block;
+	font-family: "Hind Madurai";
+	font-size: 20px;
+}
+#si, #no, #mujer, #varon{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin: 0px 10px;
+	background-color: white;
+}
+/*----------------------------------------*/
+.seccionDib{
+	display: inline-block;
+	width: 50%;
+	float: left;
+}
+.lienzo{
+	text-align: center;
+	background-image: url(../img/cara.png);
+	background-size: cover; 
+	width: 400px;
+	height: 400px;
+	margin-left: 230px;
+}
+#cabelloL{
+	width: 100px;
+	height: 100px;
+	margin-left: 100px;
+}
+#cejasL{
+	width: 100px;
+	height: 50px;
+	margin-left: 100px;
+}
+#ojosL{
+	width: 100px;
+	height: 50px;
+	margin-left: 100px;
+}
+#narizL{
+	width: 100px;
+	height: 50px;
+	margin-left: 100px;
+}
+#bocaL{
+	width: 100px;
+	height: 50px;
+	margin-left: 100px;
+}
+#negros{
+	background-image: url("../img/ojos_cuatro.png");
+	background-size: cover;
+	width: 200px;
+	height: 50px;
+}
