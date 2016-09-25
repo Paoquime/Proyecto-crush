@@ -14,3 +14,11 @@ window.addEventListener("load", function (){
     	e.target.appendChild(document.getElementById(data));
 	});
 });
+
+window.onload = function() {
+	document.onmousemove = function(e) {
+		var x = -(e.clientX/125);
+		var y = -(e.clientY/125);
+	this.body.style.backgroundPosition = x + 'px ' + y + 'px';
+  };
+};
