@@ -13,38 +13,31 @@
 			<div class="titulo"></div>
 			<div class="pregunta">
 				<p>¿Estás interesad@ en alguien?</p>
-				<div id="si"></div>
-				<div id="no"></div>
+				<input type="checkbox">Si
+				<input type="checkbox">No
 			</div>
 			<div class="pregunta">
 				<p>¿Cual es el sexo de la persona?</p>
-				<div id="mujer"></div>
-				<div id="varon"></div>
+				<input type="checkbox">Mujer
+				<input type="checkbox">Varon
 			</div>
 			<div class="pregunta">
 				<p>Empieza a dibujarl@</p>
 			</div>
 			<div class="areaDibujo">
-				<div class="seccionDib">
-					<div class="lienzo">
-						<div id="cabelloL"></div>
-						<div id="cejasL"></div>
-						<div id="ojosL" draggable="true"></div>
-						<div id="narizL"></div>
-						<div id="bocaL"></div>
-					</div>
-				</div>
-				<div class="seccionDib">
-					<div class="opciones">
-						<div class="opOjos">
-							<div id="negros" draggable="true"></div>
-							<div id="marrones"></div>
-							<div id="verdes"></div>
-							<div id="azules"></div>
-						</div>
-					</div>
+				<div class="fondodib">
+					<div id="cajaCejas" draggable="true"></div>
+					<div id="cajaOjos" draggable="true"></div>
+					<div id="cajaNariz" draggable="true"></div>
+					<div id="cajaLabios" draggable="true"></div>
+					<div id="posCejas"></div>
+					<div id="posOjos"></div>
+					<div id="posLabios"></div>
+					<div id="posNariz"></div>
 				</div>
 			</div>
+			<button type="button" id="boton">Enviar</button>
+			<p id="mensaje">Gracias por completar el test! La persona que te gusta tiene cejas pobladas, ojos celestes, ....</p>
 		</div>
 		<script type="text/javascript" src="js/app.js"></script>
 	</body>
